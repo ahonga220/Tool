@@ -12,7 +12,7 @@ def rename_files_in_folder(folder_path, prefix="file"):
             new_path = os.path.join(folder_path, new_name)
 
             os.rename(file_path, new_path)
-            print(f"已重新命名：{filename} → {new_name}")
+            print(f"已重新命名：{filename} >> {new_name}")
             count += 1
 
 if __name__ == "__main__":
